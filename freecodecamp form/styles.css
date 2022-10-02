@@ -70,3 +70,8 @@ button {
   background-color: white;
   border-color: #00001a;
 }
+
+.registration > ul{
+   display: flex;
+  justify-content: space-evenly;
+}

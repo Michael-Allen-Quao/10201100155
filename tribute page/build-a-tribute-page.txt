@@ -1,0 +1,150 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<main id="main">
+<body>
+    <div id="main">
+        <h1 class="main" id="title">Tottenham Tribute</h1>
+    </div>
+    <div id="img-div">
+        
+        <img src="https://imgs.search.brave.com/YFtTizimhrJnPzunii1f0K5-V7RWNU9UZpygx8yuEJo/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4x/UUJLRHZPOVZIcWJt/YmdlZTB2WjBRSGFF/OCZwaWQ9QXBp"
+         alt="image of Tottenham Hotspur Stadium" id="image">
+
+         <figcaption class="image-caption" id="img-caption">The Tottenham Hotspur Stadium</figcaption>
+
+    </div>
+    <div>
+            <h2><b>History</b></h2>
+                <p id="tribute-info">Originally named Hotspur Football Club, the club was formed on 5 September 1882 by a group of schoolboys led by Bobby Buckle. They were members of the Hotspur Cricket Club and the football club was formed to play sports during the winter months. A year later the boys sought help with the club from John Ripsher, the Bible class teacher at All Hallows Church, who became the first president of the club and its treasurer. Ripsher helped and supported the boys through the club's formative years, reorganised and found premises for the club. In April 1884 the club was renamed "Tottenham Hotspur Football Club" to avoid confusion with another London club named Hotspur, whose post had been mistakenly delivered to North London. Nicknames for the club include "Spurs" and "the Lilywhites".
+
+                </p>
+                <p>
+                    Tottenham was one of the five clubs that pushed for the founding of the Premier League, created with the approval of The Football Association, replacing the Football League First Division as the highest division of English football. Despite a succession of managers and players such as Teddy Sheringham, Jürgen Klinsmann and David Ginola, for a long period in the Premier League until the late 2000s, Spurs finished mid-table most seasons with few trophies won. They won the League Cup in 1999 under George Graham, and again in 2008 under Juande Ramos. Performance improved under Harry Redknapp with players such as Gareth Bale and Luka Modrić, and the club finished in the top five in the early 2010s.
+                </p>         
+        </div>
+        <p id="tribute-info-2">
+        <h2><b>Tottenham Hotspur Trivia</b></h2>
+        <ul>
+            <li>Tottenham or Spurs, is a professional football club based in Tottenham, London, England. It competes in the Premier League, the top flight of English football.</li>
+            <li>The team has played its home matches in the 62,850-capacity Tottenham Hotspur Stadium since April 2019, replacing their former home of White Hart Lane, which had been demolished to make way for the new stadium on the same site.</li>
+            <li>Founded in 1882, Tottenham's emblem is a cockerel standing upon a football, with the Latin motto Audere est Facere ("to dare is to do").</li>
+            <li>The club has traditionally worn white shirts and navy blue shorts home kit since the 1898–99 season.</li>
+            <li>Tottenham were the first club in the 20th century to achieve the League and FA Cup Double, winning both competitions in the 1960–61 season.</li>
+            <li>After successfully defending the FA Cup in 1962, in 1963 they became the first British club to win a UEFA club competition – the European Cup Winners' Cup.</li>
+        </ul>
+     </p>  
+           
+    </div>
+    <div>
+        <img class="image-2" src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Tottenham_Hotspur.svg/120px-Tottenham_Hotspur.svg.png" alt="image of the Tottenham Hotspur badge" id="image-2" align="right" class="image-2">
+        <p id="honour-info">
+            <h2><b>Major Honours</b></h2>
+            <ul>
+                <li>League Titles: 2</li>
+                <li>Fa Cups: 8</li>
+                <li>League Cups: 4</li>
+                <li>Community Shields: 7</li>
+                <li>Uefa Cup Winners Cups: 1</li>
+                <li>Uefa Cups: 2</li>
+            </ul>
+        </p>
+    </div>
+
+<footer>
+    <address><a class="link" href="https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C." target="_blank" id="tribute-link">For more info click here</a>  
+    </address></footer>
+    </main>   
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#image{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title{
+    text-align: center;
+
+}
+
+body{
+    font-family: Helvetica;
+    width: 80%;
+   margin: 0 auto 10px auto;
+   max-width: 900px; 
+}
+
+.main{
+   background: #2a2a40;
+   color: white;
+}
+
+.link{ 
+    display: block;
+    text-align: center;
+    color: white;
+    
+}
+
+.image-caption{
+    text-align: center;
+}
+
+.image-2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:150px;
+  width: auto;
+  padding-top: 100px;
+}
+
+p, ul, h3{
+    color: #2a2a40;
+    padding: 5px 10px 0 0;
+    font-size: 16px;
+    font-family: Helvetica;
+}
+
+li{
+     padding: 10px 10px 0 0;
+}
+
+h1{
+    font-size: 36px;
+}
+
+p{
+    font-style: none;
+}
+
+footer {
+  background-color: #2a2a40;
+  display: flex;
+  justify-content: center;
+}
+
+address {
+  text-align: center;
+  padding: 0.3em;
+}
+
+
+** end of undefined **
+

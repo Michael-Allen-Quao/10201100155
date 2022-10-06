@@ -32,6 +32,7 @@ body{
 
 .image-caption{
     text-align: center;
+    color: #2a2a40;
 }
 
 .image-2{
@@ -40,12 +41,12 @@ body{
   margin-right: auto;
   height:150px;
   width: auto;
-  padding-top: 100px;
+  padding-top: 30px;
 }
 
 p, ul, h3{
     color: #2a2a40;
-    padding: 5px 10px 0 0;
+    padding: 5px 5px 0 0;
     font-size: 16px;
     font-family: Helvetica;
 }
@@ -56,6 +57,11 @@ li{
 
 h1{
     font-size: 36px;
+    
+}
+
+h2{
+    color: #2a2a40;
 }
 
 p{
@@ -71,4 +77,12 @@ footer {
 address {
   text-align: center;
   padding: 0.3em;
+}
+
+hr{
+   background-color: #2a2a40;
+   border-color: #2a2a40;
+   height: 2px;
+   min-width: 900px;
+   
 }

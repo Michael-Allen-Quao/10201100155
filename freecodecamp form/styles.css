@@ -75,3 +75,12 @@ button {
    display: flex;
   justify-content: space-evenly;
 }
+
+.survey{
+  color: #f1be32;
+}
+
+#description{
+  display: flex;
+  justify-content: space-evenly;
+}

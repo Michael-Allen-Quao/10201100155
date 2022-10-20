@@ -6,12 +6,15 @@
      <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="survey">
       <header>
-        <h1 id="title">FreeCodeCamp Survey Form</h1>
-        
+        <h1 id="title">FreeCodeCamp Survey Form</h1> 
      </header>
-    <form id="survey-form"><p id="description">Thank you for taking the time to help us improve the platform</p>
-      <fieldset class="registration">
+     <div id="description">
+          <p id="description">Thank you for taking the time to help us improve the platform</p>
+     </div>
+    <form id="survey-form">
+      <fieldset>
         <label id="name-label" for="name">Name<input id="name" type="text" placeholder="Enter your name" required/></label>
         <label id="email-label" for="email">Email<input id="email" type="email" placeholder="Enter your email" required/></label>
         <label id="number-label" for="age">Age (optional)<input id="number" type="number" name="number" placeholder="Age" min="16" max="25"/></label>
@@ -39,18 +42,17 @@
                 <label for="Front-end-projects"><input value="Front-end-projects" id="Front-end" type="checkbox" name="Front-end-projects" class="inline"/>Front-end projects</label>
                 <label for="Back-end-projects"><input value="Back-end-projects" id="Back-end" type="checkbox" name="Back-end-projects" class="inline"/>Back-end projects</label>
                 <label for="Data-visualization"><input value="Data-visualization" id="Data-visualization" type="checkbox" name="Data-visualization" class="inline" />Data visualization</label>
-                <label for"Challenges"><input value="Challenges" id="Challenges" type="checkbox" name="Challenges" class="inline" />Challenges</label>
-                <label for"Open-source"><input value="Open-source" id="Open-source" type="checkbox" name="Open-source" class="inline" />Open source</label>
+                <label for="Challenges"><input value="Challenges" id="Challenges" type="checkbox" name="Challenges" class="inline" />Challenges</label>
+                <label for="Open-source"><input value="Open-source" id="Open-source" type="checkbox" name="Open-source" class="inline" />Open source</label>
               </label>
               <label for="comments">Any comments or suggestions?
                 <textarea id="comments" name="comments" rows="6" cols="35" placeholder="Enter your comment here:"></textarea>
               </label>
         </label>
-      <button id="submit" type="submit">Submit</button>
+      <button id="submit">Submit</button>
       </fieldset>
+      
     </form>
+    </div>
   </body>
 </html>
-
-
-
